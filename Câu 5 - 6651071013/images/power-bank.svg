@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ccfbf1"/><stop offset="1" stop-color="#d1fae5"/></linearGradient>
+    <linearGradient id="body" x2="1" y2="1"><stop stop-color="#334155"/><stop offset=".45" stop-color="#0f172a"/><stop offset="1" stop-color="#020617"/></linearGradient>
+    <linearGradient id="side" x2="0" y2="1"><stop stop-color="#475569"/><stop offset="1" stop-color="#1e293b"/></linearGradient>
+    <filter id="shadow" x="-.4" y="-.3" width="1.8" height="1.8"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#064e3b" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="640" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="505" cy="87" r="78" fill="#fff" opacity=".39"/>
+  <circle cx="111" cy="370" r="74" fill="#fff" opacity=".3"/>
+  <ellipse cx="324" cy="394" rx="129" ry="19" fill="#064e3b" opacity=".14"/>
+  <g filter="url(#shadow)" transform="rotate(-8 320 236)">
+    <rect x="214" y="89" width="211" height="294" rx="35" fill="url(#side)"/>
+    <rect x="207" y="78" width="211" height="294" rx="35" fill="url(#body)" stroke="#64748b" stroke-width="3"/>
+    <path d="M226 101h173" stroke="#fff" stroke-opacity=".12" stroke-width="4" stroke-linecap="round"/>
+    <rect x="253" y="151" width="119" height="53" rx="15" fill="#020617" stroke="#475569" stroke-width="2"/>
+    <text x="312" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="2" fill="#5eead4">10000</text>
+    <rect x="269" y="239" width="88" height="8" rx="4" fill="#334155"/>
+    <rect x="269" y="239" width="64" height="8" rx="4" fill="#2dd4bf"/>
+    <circle cx="274" cy="313" r="5" fill="#5eead4"/>
+    <circle cx="293" cy="313" r="5" fill="#5eead4" opacity=".65"/>
+    <circle cx="312" cy="313" r="5" fill="#5eead4" opacity=".34"/>
+    <rect x="301" y="372" width="31" height="8" rx="4" fill="#64748b"/>
+    <rect x="414" y="151" width="8" height="31" rx="4" fill="#94a3b8"/>
+    <rect x="414" y="199" width="8" height="38" rx="4" fill="#94a3b8"/>
+  </g>
+  <path d="m484 276 7 17 17 7-17 7-7 17-7-17-17-7 17-7z" fill="#fff" opacity=".83"/>
+</svg>

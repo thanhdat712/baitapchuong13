@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e0f2fe"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="cord" x2="1" y2="1"><stop stop-color="#60a5fa"/><stop offset=".5" stop-color="#2563eb"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.4" width="1.6" height="1.9"><feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#1e3a8a" flood-opacity=".19"/></filter>
+  </defs>
+  <rect width="640" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="503" cy="99" r="81" fill="#fff" opacity=".39"/>
+  <circle cx="105" cy="369" r="66" fill="#fff" opacity=".31"/>
+  <ellipse cx="322" cy="373" rx="159" ry="20" fill="#1d4ed8" opacity=".11"/>
+  <g filter="url(#shadow)">
+    <path d="M202 181c-52 6-57 83-15 109 34 21 84-13 111-40s68-34 95-3 35 72 0 100-90 24-111-13 8-74 48-77 69 24 102 10c40-17 34-74 7-90-28-17-53 1-64 26" fill="none" stroke="#1e40af" stroke-width="23" stroke-linecap="round"/>
+    <path d="M202 176c-52 6-57 83-15 109 34 21 84-13 111-40s68-34 95-3 35 72 0 100-90 24-111-13 8-74 48-77 69 24 102 10c40-17 34-74 7-90-28-17-53 1-64 26" fill="none" stroke="url(#cord)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M201 181 165 154" fill="none" stroke="#2563eb" stroke-width="17" stroke-linecap="round"/>
+    <rect x="130" y="129" width="43" height="35" rx="9" transform="rotate(-38 130 129)" fill="#94a3b8"/>
+    <path d="m139 134 26 32" stroke="#e2e8f0" stroke-width="5"/>
+    <path d="M450 199 486 169" fill="none" stroke="#2563eb" stroke-width="17" stroke-linecap="round"/>
+    <rect x="469" y="134" width="48" height="30" rx="10" transform="rotate(-40 469 134)" fill="#94a3b8"/>
+    <rect x="486" y="137" width="20" height="18" rx="7" transform="rotate(-40 486 137)" fill="#cbd5e1"/>
+    <path d="m486 141 11 13" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="m477 317 6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#fff" opacity=".82"/>
+</svg>

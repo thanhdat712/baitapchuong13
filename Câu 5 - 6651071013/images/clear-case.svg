@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f1f5f9"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".81"/><stop offset=".5" stop-color="#bae6fd" stop-opacity=".32"/><stop offset="1" stop-color="#fff" stop-opacity=".66"/></linearGradient>
+    <linearGradient id="phone" x2="1" y2="1"><stop stop-color="#475569"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <filter id="shadow" x="-.4" y="-.3" width="1.8" height="1.8"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#334155" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="640" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="500" cy="93" r="84" fill="#fff" opacity=".48"/>
+  <ellipse cx="323" cy="392" rx="120" ry="19" fill="#64748b" opacity=".13"/>
+  <g filter="url(#shadow)" transform="rotate(8 320 236)">
+    <rect x="231" y="55" width="180" height="354" rx="39" fill="#cbd5e1"/>
+    <rect x="239" y="62" width="164" height="339" rx="33" fill="url(#phone)"/>
+    <rect x="250" y="74" width="77" height="80" rx="22" fill="#273449" stroke="#64748b" stroke-width="3"/>
+    <circle cx="274" cy="98" r="12" fill="#111827" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="304" cy="98" r="12" fill="#111827" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="274" cy="130" r="12" fill="#111827" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="304" cy="130" r="5" fill="#e2e8f0"/>
+    <rect x="224" y="49" width="194" height="367" rx="46" fill="url(#glass)" stroke="#fff" stroke-width="7"/>
+    <path d="M251 192 383 105M247 235l146-97M253 356l48-32" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".48"/>
+    <rect x="226" y="157" width="5" height="50" rx="2.5" fill="#fff" opacity=".9"/>
+    <rect x="411" y="180" width="5" height="71" rx="2.5" fill="#bfdbfe"/>
+  </g>
+  <path d="m476 292 7 18 18 7-18 7-7 18-7-18-18-7 18-7z" fill="#fff" opacity=".9"/>
+</svg>

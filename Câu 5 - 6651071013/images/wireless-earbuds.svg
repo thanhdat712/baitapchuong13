@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f1f5f9"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="case" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".65" stop-color="#e2e8f0"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="bud" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.4" width="1.6" height="1.9"><feDropShadow dx="0" dy="17" stdDeviation="16" flood-color="#334155" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="640" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="507" cy="91" r="79" fill="#fff" opacity=".36"/>
+  <ellipse cx="323" cy="385" rx="154" ry="21" fill="#334155" opacity=".13"/>
+  <g filter="url(#shadow)">
+    <path d="M176 227c0-72 64-121 144-121s144 49 144 121v33H176z" fill="url(#case)" stroke="#94a3b8" stroke-width="4"/>
+    <path d="M176 230h288v71c0 47-39 84-87 84H263c-48 0-87-37-87-84z" fill="url(#case)" stroke="#94a3b8" stroke-width="4"/>
+    <path d="M183 238h274" stroke="#94a3b8" stroke-width="4"/>
+    <circle cx="320" cy="310" r="7" fill="#60a5fa"/>
+    <path d="M237 191v-45a24 24 0 0 1 48 0v49m-48-21h39a20 20 0 0 1 20 20v11" fill="none" stroke="#e2e8f0" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M355 191v-45a24 24 0 0 1 48 0v49m-48-21h39a20 20 0 0 1 20 20v11" fill="none" stroke="#e2e8f0" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M237 191v-45a24 24 0 0 1 48 0v49m-48-21h39a20 20 0 0 1 20 20v11" fill="none" stroke="url(#bud)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M355 191v-45a24 24 0 0 1 48 0v49m-48-21h39a20 20 0 0 1 20 20v11" fill="none" stroke="url(#bud)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="m496 167 7 17 17 7-17 7-7 17-7-17-17-7 17-7z" fill="#fff" opacity=".87"/>
+</svg>

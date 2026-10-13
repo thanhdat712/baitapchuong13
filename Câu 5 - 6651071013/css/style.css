@@ -1,0 +1,4 @@
+/* Tailwind handles most of the layout. */
+.card-san-pham { transition: transform .15s ease, box-shadow .15s ease; }
+.card-san-pham:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(30, 64, 175, .15); }
+[v-cloak] { display: none; } /* Hide the template until Vue mounts. */
